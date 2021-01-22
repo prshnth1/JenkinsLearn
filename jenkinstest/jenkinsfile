@@ -1,8 +1,0 @@
-node{
-  stage('SCM Checkout'){
-    git 'https://github.com/prshnth1/JenkinsLearn/tree/main/jenkinstest'
-  }
-  stage('Compile-Package'){
-    sh 'mvn-package'
-  }
-}
